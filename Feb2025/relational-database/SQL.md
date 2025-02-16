@@ -115,3 +115,36 @@ Use the shortcut command to display the details of the students table to make su
   - Add the table name after the command
   - \d students
 
+The foreign key is still missing. Let's fill in the majors table next. Add a major_id column to it. Make it a type of SERIAL and the PRIMARY KEY for this table.
+  - The foreign key is still missing. Let's fill in the majors table next. Add a major_id column to it. Make it a type of SERIAL and the PRIMARY KEY for this table.
+
+This table will only have one other column for the name of the major. Add a column to it named major. Make it a VARCHAR with a max-length of 50 and give it the NOT NULL constraint.
+  - ALTER TABLE majors ADD COLUMN major VARCHAR(50) NOT NULL;
+
+View the details of the majors table to make sure you like it.
+  - Use the display shortcut command
+
+  - Add the table name after the command
+
+  - It's the \d command
+    -  Here's an example: \d <table_name>
+    -  Type \d majors into the psql prompt
+
+This table looks good. Now, set the major_id column from the students table as a foreign key that references the major_id column from the majors table. 
+  - Here's an example of how to do that: ALTER TABLE <table_name> ADD FOREIGN KEY(<column_name>) REFERENCES <referenced_table_name>(<referenced_column_name>);
+  - This table looks good. Now, set the major_id column from the students table as a foreign key that references the major_id column from the majors table. Here's an example of how to do that: ALTER TABLE <table_name> ADD FOREIGN KEY(<column_name>) REFERENCES <referenced_table_name>(<referenced_column_name>);
+
+  - Type ALTER TABLE students ADD FOREIGN KEY(major_id) REFERENCES majors(major_id); in the psql prompt
+
+#### To Continue after a session has ended
+  - open up the lesson
+  - view command pallete > start 
+  - psql --username=freecodecamp --dbname=postgres
+  - postgres=> \c students;
+  - students=> \dt
+  - should be good to go 
+
+// we are 15% complete on Sat Feb 15 2025
+
+
+
