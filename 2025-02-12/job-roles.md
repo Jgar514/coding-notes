@@ -82,3 +82,308 @@ Knowledge of data forensics, network analysis, systems administrator tactics, te
 - Experience in computer network protocols and network analysis tools. 
 ### Compensation
 - $150,000 - $185,000 per year
+
+## Security DevOps Engineer (DevSecOps)
+
+The DevSecOps Security Engineer will work closely with the Security Manager to ensure the proper security stance is maintained for the information system. This role is primarily responsible for ensuring that all GitHub code scans are performed and meet VA 6500 and NIST compliance standards.
+
+### Code Scanning & Vulnerability Management
+- Perform GitHub code scanning using Dependabot and CodeQL.
+- Conduct vulnerability analysis and manage secrets to ensure compliance with security standards and documentation/reporting for Authority to Operate (ATO) security authorization for FISMA information systems.
+- Document findings, recommendations, and improvements. Generate regular reports on code quality metrics.
+
+### Threat Modeling & Risk Assessment
+
+- Conduct Threat Model analysis using Microsoft Threat Modeling Tool.
+- Research and address potential security issues for products, services, interfaces, protocols, etc., which may be introduced into the MHV environment.
+
+### Code Quality & Optimization:
+
+- Perform code quality assessments using static analysis tools to identify code smells, anti-patterns, and areas for improvement.
+- Conduct security scanning to identify vulnerabilities (e.g., OWASP Top Ten) in the codebase.
+- Optimize code performance, resolving bottlenecks, memory leaks, and resource-intensive areas.
+
+### CI/CD Integration & Automation:
+
+- Integrate code analysis tools into CI/CD pipelines, ensuring code quality checks are automated.
+- Develop scripts and automation tools using Python, Shell, or other scripting languages to streamline processes.
+
+### Documentation & Reporting:
+
+- Prepare system, boundary, and authorization architectural diagrams using Visio.
+- Support the ATO process by documenting scans, creating diagrams, gathering artifacts, and addressing Security Control Assessments.
+
+### Collaboration & Cross-functional Support:
+
+- Work effectively with cross-functional teams, including developers, testers, and project managers, to ensure secure and efficient code releases
+
+### Cloud Infrastructure & Containerization:
+
+- Understand and work within AWS cloud infrastructure.
+- Utilize virtualization technologies such as VMware and containerization tools like Docker, Rancher, Kubernetes, and AWS EKS.
+
+### Required Experience/Qualifications
+- Proven experience with GitHub code scanning tools (Dependabot, CodeQL).
+- Proficiency in security scanning and vulnerability management (e.g., OWASP Top Ten).
+- Strong scripting and automation skills (Python, Shell).
+- Familiarity with Agile and DevOps methodologies.
+- Knowledge of security frameworks (NIST, VA 6500).
+- Hands-on experience with threat modeling tools (e.g., Microsoft Threat Modeling Tool).
+- Ability to create technical diagrams and documentation.
+
+### Preferred Experience/Qualifications
+- Familiarity with FISMA compliance and ATO processes.
+- Experience with performance optimization tools.
+- Strong communication skills for cross-functional collaboration.
+
+### Special Requirements/Security Clearance
+- Ability to obatain and maintain a Public Trust
+
+## DevOps Engineer
+
+### **Position Overview**
+By Light is looking for a DevOps Engineer. Our team directly supports the DOD Persistent Cyber Training Environment (PCTE) to build and update Cyber Range software. The DevOps Engineer works remotely as a member of the development and integration team charged with integrating, producing, testing, and deploying software packages for high-fidelity cybersecurity training environments.
+
+### **Responsibilities**
+General DevOps duties include:
+- Creating and maintaining online distribution repositories.
+- Developing Linux-based packages and patches.
+- Developing and testing end-user installation strategies.
+- Automating build and deployment processes.
+- Contributing to the development, operation, and maintenance of DevSecOps processes, tools, and an automation pipeline.
+- Supporting traditional application software development, integration of third-party applications, and Infrastructure as Code (IaC) scripts.
+- Ensuring the DevSecOps environment facilitates designing, implementing, deploying, and executing automated tests.
+- Investigating new technologies to improve productivity, quality, ease of use, and maintenance.
+
+#### **Key Responsibilities**
+- Automating DevOps pipelines, software builds, and software tests.
+- Authoring and maintaining automation deployment and monitoring scripts.
+- Developing and maintaining security controls and systems.
+- Managing virtualized and containerized assets.
+- Creating virtual and physical network configurations, servers, and communications.
+- Providing test and developer engineering support.
+- Linux software package creation and deployment.
+- Maintaining the online distribution repository.
+- Designing, integrating, testing, and deploying applications in an enterprise Kubernetes environment using modern tools and patterns.
+- Creating Infrastructure as Code environments for complex virtualized networks.
+- Training others to perform DevSecOps and automation tasks.
+- Maintaining and evangelizing content to support a corporate library of knowledge.
+
+### **Required Experience/Qualifications**
+- Three (3) years of DevOps experience.
+- Experience with Continuous Integration/Delivery and DevOps Pipelines.
+- Kubernetes and general containerization development, security, deployment, and management practices.
+- Experience with GitLab/Bitbucket code repositories and automation testing platforms (e.g., Jenkins, Zypher).
+- Experience implementing DevSecOps, DevOps, or IT/Security automation supporting multiple teams.
+- Knowledge of and ability to implement DevSecOps using private and commercial cloud best practices, including private and hybrid cloud design, operation, monitoring, and deployment.
+
+### **Preferred Experience/Qualifications**
+- Experience in containerization (Kubernetes, Rancher, Docker).
+- Experience in environment orchestration (AWX, Crossplane, Terraform).
+- Expertise with Linux, repositories, deployment, and Linux virtualization (KVM).
+- Experience with virtualized network environments (VMware vCenter and NSX desired).
+- Proficiency in one or more programming languages: Python, Bash, Ansible, React.
+
+### **Special Requirements/Security Clearance**
+- Up to 10% travel.
+- **TS/SCI w/ poly** clearance required.
+- **8570 IAT Level II certification** or the ability to obtain certification within 6 months.
+
+## **UX Developer**  
+**Location:** Laurel, MD  
+
+OPS Consulting is seeking a UX Developer to work in Laurel, MD.  
+
+---
+
+### **Required Experience**
+- Demonstrated experience in planning, designing, and programming Web sites using **MediaWiki**, including MediaWiki templates and extensions (e.g., **Semantic MediaWiki**).
+- Demonstrated experience designing and developing graphical user interfaces for navigating complex engineering designs (**familiarity with CAD tools is desired**).
+- Demonstrated experience designing, developing, and implementing **intuitive user navigation strategies** for different user bases.
+- Demonstrated experience managing multimedia content in **MediaWiki** (including text, mathematical equations, and images).
+- Demonstrated experience developing and enforcing **design/layout standards** for dynamically updated content.
+- Demonstrated experience generating **summary reports from Wiki content**.
+- Experience supporting **scientific and engineering users**.
+- Experience with both **Windows and Linux** environments.
+- Experience with **NSA plugins** for integration with NSA security processes.
+- Experience developing solutions in **stand-alone environments** (no Internet access).
+
+#### **Required Skills**
+- **MediaWiki**, **HTML**, **CSS**, **PHP**, **JavaScript**, **Python**, **SQL**
+
+---
+
+### **Desired Experience**
+- Installation, maintenance, and upgrading of **MediaWiki** installations.
+- **Content and knowledge management**.
+- Implementation of **access control and security policies**.
+- **Graphics design**.
+- **Containerization** using **Docker**.
+- **Wiki user training**.
+
+#### **Desired Skills**
+- **Perl**, **C/C++**, **Java-based client-server architectures**.
+- **System administration** on **Linux** systems.
+
+---
+
+### **Security Clearance**
+A **current government clearance, background investigation, and polygraph** are required.
+
+---
+
+### **Equal Opportunity Statement**
+The Swift Group and Subsidiaries are an **Equal Opportunity/Affirmative Action employer**. All qualified applicants will receive consideration for employment without regard to **race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status**, or any other protected class.
+
+---
+
+### **Pay Range**
+**$49,996.80 - $290,004.00**  
+
+Pay ranges are a **general guideline** and not intended as a **guaranteed and/or implied final compensation or salary** for this job opening. Determination of official compensation or salary depends on several factors, including but not limited to:  
+- **Level of position**  
+- **Complexity of job responsibilities**  
+- **Geographic location**  
+- **Work experience**  
+- **Education**  
+- **Certifications**  
+- **Federal Government contract labor categories**  
+- **Contract wage rates**  
+
+---
+
+### **Benefits**
+At **The Swift Group and Subsidiaries**, you will receive **comprehensive benefits**, including but not limited to:  
+- **Healthcare**  
+- **Wellness programs**  
+- **Financial benefits**  
+- **Retirement plans**  
+- **Education assistance**  
+- **Time-off benefits** 
+
+## **Webmaster**  
+**Location:** Laurel, MD  
+
+OPS Consulting is seeking a **Webmaster** to work in **Laurel, MD**.  
+
+---
+
+### **Responsibilities**
+- Serve as a **project manager** for the web team’s tasks.
+- Identify, define, and capture **requirements** and prepare **plans and roadmaps** for design, development, and release.
+- Coordinate, manage, and communicate **project plans, requirements, and version releases** by working closely with **USG stakeholders** and other team members.
+- Perform **traffic analysis, user polls, and UX analysis** to ensure communication/usage optimization, including **periodic and user testing** to confirm proper functionality.
+- Plan, create, execute, and manage the **web design, structure, and strategy** to ensure **user experience (UX) principles** and branding standards are met.
+- Ensure **security protocols** are followed and access is removed as appropriate.
+- Monitor **Confluence spaces** regularly to ensure **Terms of Use/Usage Agreement** compliance.
+- Collaborate with a **larger team** to plan, design, and implement **new features** or components as identified by leadership and USG stakeholders.
+- Work closely with **content owners and SME authors** in various mission areas to identify content and UX needs of the **end user** and draft **site content** for review (including text, files, graphics, and more).
+- Design and create **various forms of media** for publishing through the site or in other **digital formats**.
+- Manage **Confluence spaces and instances**, including **permissions**.
+- Use knowledge of **Confluence and other corporate tools** to deliver requested capabilities or requirements (e.g., when to integrate **SharePoint, Casport**, or other corporate online services/solutions).
+- **Experience with Cascading Style Sheets (CSS) is required**.
+- **Experience with Adobe Creative Cloud tools is helpful**.
+
+---
+
+### **Required Skills**
+- **Seven (7) years** of experience as a **Systems Engineer (SE)** in programs and contracts of similar scope, type, and complexity.
+- **Bachelor's degree** in **System Engineering, Computer Science, Information Systems, Engineering Science, Engineering Management**, or a related discipline from an **accredited college or university**.
+
+---
+
+### **Desired Skills**
+- **Five (5) years** of additional **Systems Engineering experience** may be substituted for a **bachelor's degree**.
+
+---
+
+### **Security Clearance**
+A **current government clearance, background investigation, and polygraph** are required.
+
+---
+
+### **Equal Opportunity Statement**
+The Swift Group and Subsidiaries are an **Equal Opportunity/Affirmative Action employer**.  
+All qualified applicants will receive consideration for employment without regard to **race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status**, or any other protected class.
+
+---
+
+### **Pay Range**
+**$49,996.80 - $290,004.00**  
+
+Pay ranges are a **general guideline** and are not intended as a **guaranteed or implied final compensation** for this job opening.  
+**Final compensation** is determined based on factors such as:  
+- **Level of position**  
+- **Complexity of job responsibilities**  
+- **Geographic location**  
+- **Work experience**  
+- **Education**  
+- **Certifications**  
+- **Federal Government contract labor categories**  
+- **Contract wage rates** 
+
+## **Software Engineer**  
+**Location:** Columbia, MD  
+
+The Swift Group is seeking a talented and experienced **Software Engineer** to join our team. As a Software Engineer, you will be responsible for designing, developing, and implementing **complex software capabilities** for computer-based systems. You will work closely with other talented engineers to create **software solutions** that meet the needs of our clients.
+
+---
+
+### **Key Responsibilities**
+- Must have **strong working knowledge** and experience developing **Java-based software capabilities**.
+- Should have an **inquisitive nature, responsiveness, and excellent testing skills**.
+- Must possess **strong troubleshooting skills** and the ability to work **under pressure with multiple deadlines**.
+- Will work in a **fast-paced, small business environment** with our talented team.
+- Other duties as assigned.
+
+---
+
+### **Required Qualifications**
+- **5+ years** of experience in **Software Engineering, Modern Java Frameworks, and Libraries** (e.g., **Spring, Guava**) and a **Bachelor’s degree in a related field**.  
+  - **OR** 3 years of relevant experience with a **Master’s degree** in a related field.  
+  - **OR** a **High School Diploma or equivalent** and **9 years of relevant experience**.
+- Experience in **designing enterprise APIs**.
+- Experience in **RESTful web services**.
+- Experience in **Microservices architecture**.
+- Experience in **Object-Oriented Programming (OOP) paradigms**.
+- Experience with the **agile software lifecycle**.
+- Proven ability to **learn quickly** and work **both independently and in a team setting**.
+- Experience with the **Linux operating system**.
+- Experience with **configuration management tools** (e.g., **Git, Nexus, Maven**).
+- Must be able to **work a hybrid schedule** out of our **Columbia, MD office**.
+- **US Citizenship** and an **active Secret security clearance** required.
+
+---
+
+### **Preferred Requirements**
+- **DoD 8140 / 8570 compliance certifications** may be required as directed by the customer.
+- A **current Secret-level security clearance** is required.
+- Experience in **cloud-based technologies** (e.g., **AWS, Azure**).
+- Experience in **distributed databases, NoSQL databases, full-text search engines** (e.g., **Elasticsearch, MongoDB, Solr**).
+- **Scripting experience** is a huge plus.
+- Prior experience or familiarity with **Big Data Platforms** is a plus.
+- Understanding of **AGILE software development methodologies** and experience with standard software development tool suites (e.g., **JIRA, Confluence, Github Enterprise**).
+
+---
+
+### **Equal Opportunity Statement**
+The Swift Group and Subsidiaries are an **Equal Opportunity/Affirmative Action employer**.  
+All qualified applicants will receive consideration for employment without regard to **race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status**, or any other protected class.
+
+---
+
+### **Pay Range**
+**$49,996.80 - $290,004.00**  
+
+Pay ranges are a **general guideline** and are not intended as a **guaranteed or implied final compensation** for this job opening.  
+**Final compensation** is determined based on factors such as:  
+- **Level of position**  
+- **Complexity of job responsibilities**  
+- **Geographic location**  
+- **Work experience**  
+- **Education**  
+- **Certifications**  
+- **Federal Government contract labor categories**  
+- **Contract wage rates**  
+
+

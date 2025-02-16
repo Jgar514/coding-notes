@@ -146,5 +146,34 @@ This table looks good. Now, set the major_id column from the students table as a
 
 // we are 15% complete on Sat Feb 15 2025
 
+#### Question
+
+What is the difference between saying SQL, psql, and PostgresSQL?
+  - The terms SQL, psql, and PostgreSQL are related but have distinct meanings:
+
+SQL (Structured Query Language)
+  - SQL is a language used to manage and query databases.
+  - It’s not specific to PostgreSQL—it works with many database systems (MySQL, SQLite, SQL Server, etc.).
+   - SQL is not a tool or a program—it’s just the language used to interact with databases.
+
+PostgreSQL (Postgres)
+  - PostgreSQL (or Postgres for short) is a database management system (DBMS).
+  - It is an advanced, open-source relational database system.
+  - You use SQL to interact with PostgreSQL databases.
+  - Example: When you run a PostgreSQL server, it manages databases like students, employees, etc.
+
+psql (PostgreSQL Shell)
+  - psql is the command-line tool (interactive shell) used to interact with PostgreSQL.
+  - It allows you to run SQL queries directly from the terminal.
+  - You can also use special psql commands (which aren’t part of standard SQL), like:
+  ```sql
+  \l   -- List databases
+\c students  -- Connect to a database
+\dt  -- Show tables
+```
+
+
+
+
 
 
