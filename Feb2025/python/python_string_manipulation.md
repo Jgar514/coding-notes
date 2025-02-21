@@ -726,4 +726,187 @@ else:
             key_index += 1
 ```
 
-Inside the else clause, write a comment saying Find the right key character to encode.
+### End of Day 2
+
+### Building a Cipher continued
+
+The .index() method is identical to the .find() method but it throws a ValueError exception if it is unable to find the substring.
+
+A ValueError is a built-in exception that is raised when an argument with the right type but inappropriate value is passed to a function.
+
+After incrementing key_index, declare a variable named offset. Find the index that key_char has in alphabet and assign it to offset. Use the .index() to find the index.
+
+```python
+        else:
+            # Find the right key character to encode
+            key_char = key[key_index % len(key)]
+            key_index += 1
+            offset = alphabet.index(key_char)
+```
+
+At the moment, your function prints some strings, but these values cannot be used by other parts of code to perform any actions.
+
+For that purpose, you need to use a return statement:
+
+```python
+def foo():
+    return 'spam'
+```
+
+You need to write return followed by a space and the value that the function should return. Once the return statement is found, that value is returned and the execution of the function stops, proceeding to the next line of code after the function call. In the example above, the foo function returns the string 'spam'.
+
+Remove the two print() calls from your function and return encrypted_text.
+
+```python
+text = 'Hello Zaira'
+custom_key = 'python'
+
+def vigenere(message, key):
+    key_index = 0
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    encrypted_text = ''
+
+    for char in message.lower():
+    
+        # Append space to the message
+        if char == ' ':
+            encrypted_text += char
+        else:        
+            # Find the right key character to encode
+            key_char = key[key_index % len(key)]
+            key_index += 1
+            # Define the offset and the encrypted letter
+            offset = alphabet.index(key_char)
+            index = alphabet.find(char)
+            new_index = (index + offset) % len(alphabet)
+            encrypted_text += alphabet[new_index]
+
+    return encrypted_text
+```
+Call your function passing text and custom_key as the arguments. Store the return value of the function call in a variable called encryption
+```python
+encryption = vigenere(text, custom_key)
+```
+And now, try to print encryption to see the actual output on the terminal.
+
+```python
+encryption = vigenere(text, custom_key)
+print(encryption)
+```
+Encryption and decryption are opposite processes and your function can do both with a couple of tweaks.
+
+Add a third parameter called direction to your function definition. Also, comment out the last two lines of code to avoid errors in the console.
+```python
+def vigenere(message, key, direction):
+```
+All you need to do is multiply the offset by the direction in the new_index assignment. The multiplication operator in Python is *.
+```python
+new_index = (index + offset * direction) % len(alphabet)
+```
+
+Now you can uncomment the last two lines and modify your function call passing 1 as the third argument.
+```python
+encryption = vigenere(text, custom_key, 1)
+print(encryption)
+```
+Check if the function can decrypt the string back to the plain text.
+
+Declare another variable called decryption and assign it vigenere(encryption, custom_key, -1)
+
+```python
+encryption = vigenere(text, custom_key, 1)
+print(encryption)
+decryption = vigenere(encryption, custom_key, -1)
+print(decryption)
+# output: 
+# wcesc mpgkh
+# hello zaira
+```
+Now, your function can be used both to encrypt and decrypt a message. Clean up your code with better variable names.
+
+Change each occurrence of encrypted_text into final_message.
+
+Update your comments too. Your second comment should say encode/decode in place of encode. Your third comment should say encrypted/decrypted in place of encrypted.
+
+```python
+text = 'Hello Zaira'
+custom_key = 'python'
+
+def vigenere(message, key, direction):
+    key_index = 0
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    final_message = ''
+
+    for char in message.lower():
+    
+        # Append space to the message
+        if char == ' ':
+            final_message += char
+        else:        
+            # Find the right key character to encode/decode
+            key_char = key[key_index % len(key)]
+            key_index += 1
+
+            # Define the offset and the encrypted/decrypted letter
+            offset = alphabet.index(key_char)
+            index = alphabet.find(char)
+            new_index = (index + offset*direction) % len(alphabet)
+            final_message += alphabet[new_index]
+    
+    return final_message
+    
+encryption = vigenere(text, custom_key, 1)
+print(encryption)
+decryption = vigenere(encryption, custom_key, -1)
+print(decryption)
+```
+### functions - default arguments
+
+Functions can be called with default arguments. A default argument indicates the value that the function should take if the argument is not passed. For example, the function below accepts three arguments but you can call it passing two arguments. The third one will assume the specified value by default:
+
+```python
+def foo(a, b, c=value):
+    <code>
+```
+
+Modify the vigenere function so that its direction parameter has a default value of 1.
+
+```python
+def vigenere(message, key, direction=1):
+```
+Now you can remove the third argument from your first function call.
+
+```python
+encryption = vigenere(text, custom_key )
+```
+Right now, punctuation, special characters or digits are not encoded/decoded correctly.
+
+### isalpha()
+
+The .isalpha() method returns True if all of the characters of the string on which it is called are letters. For example, the code below returns True:
+
+```python
+'freeCodeCamp'.isalpha()
+# True
+```
+Delete the condition char == ' ' and replace it by calling the .isalpha() method on char.
+
+```python
+        # Append space to the message
+        if char.isalpha():
+            final_message += char
+```
+### `not` operator
+
+The not operator is used to negate an expression. When placed before a truthy value — a value that evaluates to True — it returns False and vice versa.
+
+Add the not operator at the beginning of the if condition to check if the character is not alphabetic.
+
+Modify your comment into Append any non-letter character to the message.
+
+```python
+        # Append any non-letter character to the message
+        if not char.isalpha():
+            final_message += char
+```
+### end of day 3
